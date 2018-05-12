@@ -1,0 +1,95 @@
+body{
+    background-color: #2178bb;
+    box-sizing: border-box;
+    margin:0;
+}
+
+/**************ESTILIZANDO EL HEADER************/
+
+/*fORMATOS DEL HEADER EN GENERAL*/
+header{
+    background-color: #1c669f;
+}
+
+header > * {
+    display:inline-block;
+    position: relative;
+}
+
+/*FORMATOS DE LA PARTE DE TABLEROS*/
+.format-tableros{
+    width:8%;
+    background-color:#3487b8;
+    font-size: 18px;
+    color:white;
+    padding:0.5%;
+    text-align: center;
+    border-radius: 5%;
+    text-decoration: none;
+    left:1em;
+}
+/*FORMATOS DEL FORMULARIO*/
+
+header > form > input{
+    width: 85%;
+    left:5em;
+    background-color: #3487b8;
+    height: 10%;
+
+}
+.format-form{
+    top:0;
+    position:relative;
+    padding:0.5em;
+    left:1em;
+    width:15%;
+    border-radius: 3%;
+    background-color: #3487b8;
+}
+.fa-search {
+    color:white;
+}
+input::placeholder{
+    color:white;
+}
+
+/*FORMATOS DE LOGO Y TITULO DE TRELLO*/
+.format-logo{
+    width:35%;
+    margin: 1%;
+    opacity: 0.5;
+   /* padding-left: 2em;*/
+}
+.format-aling-image{
+    position: absolute;
+    left: 36em;
+    width:20%;
+}
+
+/*FORMATOS DE LA NAVEGACION*/
+
+header > nav{
+    align-content: right;
+    width: 20%;
+    left:45em;
+    bottom:0.1em;
+}
+.format-Icon{
+    color: white;
+    font-size: 1em;
+    background-color:#3487b8;
+    margin: 2%;
+    padding: 0.5em;
+    border-radius: 10%;
+    top:0;
+    right: 0%;
+
+}
+
+/*FORMATOS GENERALES*/
+
+.navegation:hover{
+    opacity: 0.5;
+}
+
+/**********ESTILIZANDO EL MAIN********/
