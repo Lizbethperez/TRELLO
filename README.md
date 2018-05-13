@@ -19,7 +19,7 @@ PARA VER EL SITIO ORIGINAL DA CLICK AQUI---->[PAGINA OFICIAL DE TRELLO](https://
 ```
 ![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version1.PNG)
 
-![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version1-1.png)
+![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version1-1.PNG)
 
 
 
@@ -32,9 +32,9 @@ PARA VER EL SITIO ORIGINAL DA CLICK AQUI---->[PAGINA OFICIAL DE TRELLO](https://
 * Mostrar un texto de "Añadir una tarea" dentro de la lista
 
 ```
-![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version2.png)
+![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version2.PNG)
 
-![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version2-1.png)
+![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version2-1.PNG)
 
 ---
 
@@ -45,7 +45,7 @@ PARA VER EL SITIO ORIGINAL DA CLICK AQUI---->[PAGINA OFICIAL DE TRELLO](https://
 
 ```
 
-![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version3.png)
+![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version3.PNG)
 
 ---
 
@@ -61,7 +61,7 @@ PARA VER EL SITIO ORIGINAL DA CLICK AQUI---->[PAGINA OFICIAL DE TRELLO](https://
 
 ![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version4-1.png)
 
-![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version4-2.png)
+![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version4-2.PNG)
 
 ---
 
@@ -71,7 +71,7 @@ PARA VER EL SITIO ORIGINAL DA CLICK AQUI---->[PAGINA OFICIAL DE TRELLO](https://
 * Mostrar el formulario nuevamente debajo de la última tarea añadida.
 
 ```
-![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version5.png)
+![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version5.PNG)
 
 ---
 ### **VERSION 0.0.6 (OPCIONAL)**
@@ -79,5 +79,5 @@ PARA VER EL SITIO ORIGINAL DA CLICK AQUI---->[PAGINA OFICIAL DE TRELLO](https://
 ```javascript
 * Poder agregar múltiples listas con tarjetas. Para esto, el formulario de "Añadir una lista" debe aparecer a la derecha de la lista anteriormente creada.
 ```
-![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version6.png)
+![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version6.PNG)
 
