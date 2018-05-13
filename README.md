@@ -17,7 +17,7 @@ PARA VER EL SITIO ORIGINAL DA CLICK AQUI---->[PAGINA OFICIAL DE TRELLO](https://
 * El formulario está conformado por un input y un botón para que pueda añadir tareas a tu lista.
 
 ```
-![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version1.png)
+![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version1.PNG)
 
 ![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version1-1.png)
 
