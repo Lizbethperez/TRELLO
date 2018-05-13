@@ -31,7 +31,6 @@ PARA VER EL SITIO ORIGINAL DA CLICK AQUI---->[PAGINA OFICIAL DE TRELLO](https://
 
 * Mostrar un texto de "Añadir una tarea" dentro de la lista
 
-
 ```
 ![REPRESENTACION DE LO QUE SE DEBE DE REPLICAR CON ESTA VERSION ](assets/images/img-readme/version2.png)
 
