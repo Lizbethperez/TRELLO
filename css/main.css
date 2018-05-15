@@ -198,6 +198,17 @@ main > section > nav > a > i{
     outline: none;
     margin:0.8em;
 }
+.format-button-close{
+    position:relative;
+    background-color: none;
+    left:3.5em;
+    top:1.2em;
+    font-size:250%;
+    background-color: #e2e4e6;
+    border:none;
+    width: 5%;
+    height: 3vh;
+}
 
 /* FORMATOS PARA LA PARTE DONDE APARECE EL TITULO ALMACENADO Y EL LINK AGREGAR UNA TARJETA*/
 
@@ -221,8 +232,27 @@ main > section > nav > a > i{
 
 .format-title{
     margin-left: 0.5em;
-    text-align: center;
 }
+
 .formato-newLink-tarjeta:hover{
     background-color: #cdd2d4;
+}
+
+/*FORMATOS PARA EL NUEVO FORMULARIO QUE CONTIENE EL TEXT AREA Y EL BOTON AÑADIR*/
+
+.formato-newContainer-textArea{
+    display:inline-block;
+    background-color: #e2e4e6;
+    width:20%;
+    height: 28vh;
+    border-radius:3%;
+    margin:2%;
+}
+.format-textarea{
+    margin-left: 2%;
+}
+
+.boton-añadir{
+    display: inline-block;
+    top:18em;
 }
