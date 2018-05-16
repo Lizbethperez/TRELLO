@@ -1,6 +1,7 @@
 
 /*SE CREA FUNCION AÑADIR LISTA*/
 var section = document.getElementById('espacio-trabajo');
+
 var añadirLista= function(event) {
     newlink = document.createElement('a');
     newlink.setAttribute('class', 'formato-crear-lista'); //Se le Agrega el Atributo clase para dar Formatos desde CSS
@@ -11,7 +12,7 @@ var añadirLista= function(event) {
     newlink.addEventListener('click',formPrincipal); //SE MANDA LLAMAR LA FUNCION FORMPRINCIPAL
 };
 
-//SE CREA FUNCION QUE ALMACENA EL TITULO Y ARROJA UN NUEVO BOTON O LINK
+//SE CREA FUNCION PARA ALMACENAR  EL TITULO Y ARROJA UN NUEVO BOTON O LINK
 
 var almacenarTitle = function(e){
     e.preventDefault();
@@ -35,6 +36,7 @@ var almacenarTitle = function(e){
     var containerEliminar=document.getElementById('form');
     section.removeChild(containerEliminar);
     newLinkTarjeta.addEventListener('click',formTextArea);
+    //containerTitle.style.float='left';
 
 };
 
@@ -69,7 +71,10 @@ var formPrincipal= function(){
     buttonClose.addEventListener('click', cancelForm);
     
 };
+//CREAR FORMULARIO DE TEXT AREA
+var creatFormTextArea=function(){
 
+};
 // SE CREA LA FUNCION CON EL TEXT AREA Y EL BOTON AÑADIR
 
 var formTextArea = function(){
@@ -90,8 +95,13 @@ var formTextArea = function(){
     buttonAñadir.setAttribute('id','buttonañadir');
     buttonAñadir.setAttribute('class','formato-boton boton-añadir');
     buttonAñadir.textContent="Añadir";
+    var buttonClose2=document.createElement('button');
+    buttonClose2.setAttribute('id','button-close2');
+    buttonClose2.setAttribute('class','format-button-close close2');
+    buttonClose2.innerHTML="&times";
     newFormTextArea.appendChild(textArea);
     newFormTextArea.appendChild(buttonAñadir);
+    newFormTextArea.appendChild(buttonClose2);
     containerNewTextArea.appendChild(sendTitle);
     containerNewTextArea.appendChild(newFormTextArea);
     section.appendChild(containerNewTextArea);
@@ -104,24 +114,31 @@ var formTextArea = function(){
 
 //SE CREA LA FUNCION PARA PODER COLOCAR EL CONTENIDO DEL TEXT AREA DEBAJO DEL TITULO DE LA LISTA
 var newPlaceTextArea=function(){
-    var positionTitle=document.getElementById('title');
+    //var positionTitle=document.getElementById('title');
     var valueTextArea=document.getElementById('formTextArea2').value;
-    var containerForFinishForm=document.createElement('div');
-    containerForFinishForm.setAttribute('id','containerFinishForm')
-    containerForFinishForm.setAttribute('class','format-containerForFinishForm');
-    var parrafoTextArea=document.createElement('textarea'); //este mostrara todo el texto que se coloque en el text area
-    parrafoTextArea.setAttribute('id','parrafoNewAr');
-    parrafoTextArea.setAttribute('class','formatParrafo');
-    parrafoTextArea.setAttribute('rows','5');
-    parrafoTextArea.setAttribute('cols','34');
+    var containerForFinishForm=document.getElementById('containerNewTextArea');
+    var textAreaPreviuos=document.getElementById('formTextArea2');
+    var buttonAñadirRepet=document.getElementById('buttonañadir');
+    var buttonCloseRepet=document.getElementById('button-close2');
+    //var containerForFinishForm=document.createElement('div');
+    //containerForFinishForm.setAttribute('id','containerFinishForm')
+    //containerForFinishForm.setAttribute('class','format-containerForFinishForm');
+    var divTextArea=document.createElement('div'); //este mostrara todo el texto que se coloque en el text area
+    divTextArea.setAttribute('id','divContentNewAr');
+    divTextArea.setAttribute('class','formatdivTextArea');
+    //divTextArea.setAttribute('rows','5');
+    //divTextArea.setAttribute('cols','34');
     var infoTextArea=document.createTextNode(valueTextArea);
-    //containerNewTextArea.appendChild(positionTitle);
-    parrafoTextArea.appendChild(infoTextArea);
-    containerForFinishForm.appendChild(title);
-    containerForFinishForm.appendChild(parrafoTextArea);
+    divTextArea.appendChild(infoTextArea);
+    //containerForFinishForm.appendChild(title);
+    containerForFinishForm.appendChild(textAreaPreviuos);
+    containerForFinishForm.appendChild(divTextArea);
+    containerForFinishForm.insertBefore(divTextArea,textAreaPreviuos);
+    containerForFinishForm.appendChild(buttonAñadirRepet);
+    containerForFinishForm.appendChild(buttonCloseRepet);
     section.appendChild(containerForFinishForm);
-    var removecontainerNewTextArea=document.getElementById('containerNewTextArea');
-    section.removeChild(removecontainerNewTextArea);
+    //var removecontainerNewTextArea=document.getElementById('containerNewTextArea');
+    //section.removeChild(removecontainerNewTextArea);
 
 }
 
