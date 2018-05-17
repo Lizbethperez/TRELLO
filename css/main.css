@@ -97,6 +97,7 @@ header > nav{
 }
 
 /**********ESTILIZANDO EL MAIN********/
+
 #espacio-trabajo{
     position:relative;
     width:100%;
@@ -195,35 +196,26 @@ main > section > nav > a > i{
     background-color: #519839;
     color:white;
     padding:0.5em;
-    /*top:50em;
-    left:2em;*/
     font-size:14px;
     text-decoration:none;
     width:30%;
-    /*height: 5vh;*/
     margin-left:1em;
     border-radius: 2%;
     outline: none;
     height: auto;
 }
 .format-button-close{
-    /*position:relative;*/
-   /* display:inline-block;*/
     background-color: none;
     left:3.5em;
-    /*top:1.2em;*/
-    /*padding-top: 2%;*/
     font-size:220%;
     background-color: #e2e4e6;
     border:none;
     width: 15%;
-   /* height: 10%;*/
 }
 
 /* FORMATOS PARA LA PARTE DONDE APARECE EL TITULO ALMACENADO Y EL LINK AGREGAR UNA TARJETA*/
 
 .formato-ContainerTitle{
-    /*display:inline-block;*/
     background-color: #e2e4e6;
     width:20%;
     height: 12vh;
@@ -258,8 +250,6 @@ main > section > nav > a > i{
     word-wrap: break-word;
     background-color: #cce1f7;
     width:20%;
-    /*height: 28vh;*/
-    /*height: auto;*/
     border-radius:3%;
     margin:2%;
 }
@@ -270,7 +260,6 @@ main > section > nav > a > i{
 .boton-añadir{
     display: inline-block;
     margin-bottom:1em;
-   /* top:18em;*/
 }
 .close2{
     left:45%;
@@ -295,7 +284,7 @@ main > section > nav > a > i{
     background-color: white;
     border-radius: 5%;
     margin:5%;
-    font-family: cursive;
+    font-family: arial;
     height: auto;
     word-wrap: break-word;
 }
